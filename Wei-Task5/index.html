@@ -16,7 +16,41 @@
 		<li><a class="single-link navbar-brand" href="https://en.wikipedia.org/wiki/Yang_Jiang" target="blank">杨绛百科</a></li>
 	</ul>
 </div>
-
+<div class="page" id="split">
+  <h1>谢谢您的阅读，这是一份阅读调查问卷</h1>
+  <form action="http://www.headfirstlabs.com/contest.php" method="POST">
+	<div> 
+		<div id="investigation">
+			<p><label for="email">请输入您的邮箱地址：</label></p>
+			<p><label for="gender">性别：</label></p>
+			<p><label for="works">您最喜欢杨绛的哪类作品：</label></p>
+			<p><label for="year">您的年龄：</label></p>
+			<p><label for="comments">您对杨绛先生的评价：</label></p>
+		</div>
+		<div id="choice">
+			<p><input type="email" name="email"/></p>
+			<p><input type="radio" name="gender" value="男"/>男
+			<input type="radio" name="gender" value="女"/>女</p>
+			<p><input type="checkbox" name="works" value="散文"/>散文
+			<input type="checkbox" name="works" value="小说"/>小说
+			<input type="checkbox" name="works" value="剧本"/>剧本
+			<input type="checkbox" name="works" value="论集"/>论集
+			<input type="checkbox" name="works" value="译作"/>译作</p>
+			<p><select name="year">
+			<option value="0-20">20岁以下</option>
+			<option value="20-40">20岁-40岁</option>
+			<option value="40-60">40岁-60岁</option>
+			<option value="60-80">60岁-80岁</option>
+			<option value="80+">80岁以上</option>
+			</select></p>
+			<p><textarea name="comments" rows="5" cols="30"></textarea></p>
+		</div>
+	</div>
+	
+	<button class="btn btn-block btn-primary">提交</button>
+  </form>
+</div>
+  
 <div class="page">
 	<h1>杨绛</h1>
 	<h2>这个时代最惦记的隐士</h2>
@@ -108,42 +142,8 @@
   </table>
 </div>
   
-<div class="page">
-  <h1>谢谢您的阅读，这是一份阅读调查问卷</h1>
-  <form action="http://www.headfirstlabs.com/contest.php" method="POST">
-	<div> 
-		<div id="investigation">
-			<p><label for="email">请输入您的邮箱地址：</label></p>
-			<p><label for="gender">性别：</label></p>
-			<p><label for="works">您最喜欢杨绛先生的哪类作品：</label></p>
-			<p><label for="year">您的年龄：</label></p>
-			<p><label for="comments">您对杨绛先生的评价：</label></p>
-		</div>
-		<div id="choice">
-			<p><input type="email" name="email"/></p>
-			<p><input type="radio" name="gender" value="男"/>男
-			<input type="radio" name="gender" value="女"/>女</p>
-			<p><input type="checkbox" name="works" value="散文"/>散文
-			<input type="checkbox" name="works" value="小说"/>小说
-			<input type="checkbox" name="works" value="剧本"/>剧本
-			<input type="checkbox" name="works" value="论集"/>论集
-			<input type="checkbox" name="works" value="译作"/>译作</p>
-			<p><select name="year">
-			<option value="0-20">20岁以下</option>
-			<option value="20-40">20岁-40岁</option>
-			<option value="40-60">40岁-60岁</option>
-			<option value="60-80">60岁-80岁</option>
-			<option value="80+">80岁以上</option>
-			</select></p>
-			<p><textarea name="comments" rows="10" cols="48"></textarea></p>
-		</div>
-	</div>
-	
-	<button class="btn btn-block btn-primary">提交</button>
-  </form>
-</div>
-  
-<div>
+
+<div id="footer">
 	<p>Written and coded by <a href="https://github.com/Yuan711">Yuancheng Zhu</a>.</p>
 </div>
 
