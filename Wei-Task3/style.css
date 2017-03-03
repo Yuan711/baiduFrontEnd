@@ -1,0 +1,42 @@
+.clearfix {
+  overflow: auto;
+}
+
+.member-picture{
+	margin:10px 20px;
+}
+
+#team{
+	background-color:#EEE;
+	padding:20px;
+	border:1px solid #999;
+}
+
+#team-logo{
+	width:200px;
+	background-color:white;
+	border:1px solid #999;
+	float:left;
+}
+
+#logo{
+	float:left;
+	margin:20px;
+}
+
+#team-introduction{
+	background-color:white;
+	margin:0px 142px 0px 222px;
+	padding:20px;
+	border:1px solid #999;
+}
+
+#team-member{
+	width:120px;
+	background-color:white;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:1px solid #999;
+	float:right;
+}
