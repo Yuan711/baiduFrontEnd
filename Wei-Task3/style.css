@@ -29,6 +29,7 @@
 	margin:0px 142px 0px 222px;
 	padding:20px;
 	border:1px solid #999;
+	overflow: hidden;
 }
 
 #team-member{
