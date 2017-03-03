@@ -1,0 +1,67 @@
+body{
+	background-color:#ADADAD;
+}
+h1,h2{
+	color:gray;
+}
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+th{
+	background-color:black;
+	color:white;
+	padding:10px;
+}
+td{
+	border:thin dotted gray;
+	padding:10px;
+	text-align:center;
+}
+.single-link{
+	padding:10px;
+	font-size:20px;
+	color:white;
+}
+
+.page{
+	background-color:#FFFFFF;
+	margin:2%;
+	border:1px solid gray;
+	padding:20px;
+	box-shadow: 3px 1px 3px rgba(0,0,0,0.5);
+}
+.picture{
+	border:1px solid gray;
+	text-align:center;
+	padding:20px;
+	margin:20px;
+	box-shadow: 3px 1px 3px rgba(0,0,0,0.5);
+	width:400px;
+}
+#navigation{
+	background-color:#333333;
+	height:70px;
+	background-image:url(picture/baidu.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+#nav{
+	position: relative;
+	top:15px;
+	float: right;
+	
+}
+#nav li{
+	float:left;
+	margin-right: 25px;
+}
+#investigation{
+	padding-left:10%;
+	float:left;
+	text-align: right;
+}
+#choice{
+	padding-left:10px;
+	float:left;
+}
