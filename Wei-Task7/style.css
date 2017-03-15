@@ -1,3 +1,207 @@
 body{
 	width:1280px;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+#nav,#new-world,#header,#login{
+	height:60px;
+}
+
+#new-world{
+	background:url(picture/book.png) no-repeat left;
+	width:auto;
+	float:left;
+	padding-left:40px;
+	padding-top:15px;
+	margin-left:60px;
+	font-family:SimHei;
+	font-size:21px;
+}
+#header,#login{
+	float:right;
+}
+	
+#login{
+	background:url(picture/login.png) no-repeat left;
+	width:auto;
+	padding-left:18px;
+	padding-top:18px;
+	margin-right:60px;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+}
+
+
+#header .header-button{
+	height:60px;
+	padding-top:18px;
+	padding-left:auto;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	text-align:center;
+}
+#header .header-button:hover{
+	border-bottom:4px solid #e74f4d;
+}
+
+#header li{
+	width:100px;
+	float:left;
+	list-style-type:none;
+}
+
+#header li a,#login a{
+	color:#83868d;
+	text-decoration:none; 
+}
+
+#header li a:hover,#login a{
+	color:#e74f4d;
+}
+
+#one{
+	height:690px;
+	background:url(picture/picture1.jpg) no-repeat;
+}
+
+#one-block{
+	height:690px;
+	background-color:rgba(0,0,0,0.2);
+	padding-top:200px;
+	padding-left:115px;
+}
+
+#one-block h1,#one-block p,#one-button a{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:60px;
+}
+	
+#one-block p{
+	font-size:21px;
+	margin-left:10px;
+	padding-top:10px;
+}
+
+#one-button{
+	height:65px;
+	width:325px;
+	background-color:#e74f4d;
+	margin-top:60px;
+	margin-left:10px;
+	padding-top:10px;
+	text-align:center;
+}
+
+#one-button a{
+	text-decoration:none;
+	letter-spacing:4px;
+	font-size:30px;
+}
+
+#two{
+	height:245px;
+}
+
+#two-first,#two-second,#two-third,#two-forth{
+	float:left;
+	height:250px;
+}
+#two-first{
+	width:325px;
+}
+
+#two-second{
+	width:335px;
+}
+
+#two-third{
+	width:315px;
+}
+
+#two-forth{
+	width:305px;
+}
+
+#two .two-picture{
+	height:130px;
+}
+
+#two-picture1{
+	background:url(picture/target.png) no-repeat center;
+}
+
+#two-picture2{
+	background:url(picture/flag.png) no-repeat center;
+}
+
+#two-picture3{
+	background:url(picture/flower.png) no-repeat center;
+}
+
+#two-picture4{
+	background:url(picture/rectangle.png) no-repeat center;
+}
+
+#two .two-text{
+	height:50px;
+	color:#767777;
+	text-align:center;
+	font-family:SimHei;
+	font-size:14px;
+}
+
+#three{
+	height:363px;
+	background-color:#eeecec;
+	padding-top:40px;
+}
+
+#bookshelf{
+	height:195px;
+	background:url(picture/bookshelf.png) no-repeat center;
+}
+
+#three p{
+	color:#a1a1a1;
+	font-family:SimHei;
+	font-size:54px;
+	text-align:center;
+	line-height:54px;
+}
+
+#four{
+	background:url(picture/map.png) no-repeat;
+}
+
+#four-block{
+	height:341px;
+	background-color:rgba(170,53,51,0.2);
+}
+
+#four-block #four-text1{
+	padding-top:52px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:21px;
+	line-height:21px;
+	text-align:center;
+}
+
+#four-line{
+	width:32px;
+	height:3px;
+	border-bottom:3px solid #ffffff;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#four-block #four-text2{
+	padding-top:20px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	line-height:12px;
+	text-align:center;
 }
