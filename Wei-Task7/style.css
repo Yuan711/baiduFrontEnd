@@ -205,3 +205,252 @@ body{
 	line-height:12px;
 	text-align:center;
 }
+
+#four-block select{
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+	width:231px;
+	height:35px;
+	border: solid 2px #ffffff;
+
+  /*很关键：将默认的select选择框样式清除*/
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+	background: url(picture/arrow.png) no-repeat scroll right center transparent;
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+	padding-right: 14px;
+	
+	background-color:#ffffff;
+	color:#919192;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+}
+#four-block select:hover{
+	border: solid 2px #e74f4d;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+#four-block select::-ms-expand { display: none; }
+
+#four-block option{
+	background-color:#e3e3e4;
+}
+
+#four-block option:checked{
+	color:white;
+	background-color:#e74f4d;
+}
+
+#four-search{
+	float:right;
+	background-color:#e74f4d;
+	width:235px;
+	height:35px;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	line-height:0px;
+	padding-top:17px;
+	margin-right:125px;
+	text-align:center;
+}
+
+#four-search a{
+	text-decoration:none; 
+	color:white;
+}
+
+#four-block .four-top{
+	margin-top:54px;
+}
+
+#country{
+	margin-left:125px;
+}
+
+#province,#city{
+	margin-left:30px;
+}
+
+#five{
+	height:600px;
+	background-color:#f7f7f7;
+	position:relative;
+}
+
+#five .five-white{
+	width:218px;
+	height:337px;
+	background-color:white;
+	border:1px solid #e0e0e1;
+	position:absolute;
+}
+
+#five .five-white:hover{
+	top:150px;
+}
+
+#beijing{
+	background:url(picture/beijing.png) no-repeat center;
+	top:100px;
+	left:150px;
+}
+
+#shanghai{
+	background:url(picture/shanghai.png) no-repeat center;
+	top:100px;
+	left:400px;
+}
+
+#shenzhen{
+	background:url(picture/shenzhen.png) no-repeat center;
+	top:100px;
+	left:660px;
+}
+
+#xianggang{
+	background:url(picture/xianggang.png) no-repeat center;
+	top:100px;
+	left:915px;
+}
+
+#five .five-text{
+	width:220px;
+	text-align:center;
+	font-family:"Microsoft YaHei";
+	position:relative;
+	padding-top:330px;
+}
+
+#five .five-text:hover{
+	top:-400px;
+	padding-bottom:330px;
+}
+
+#five .five-text:hover h3{
+	width:220px;
+	font-size:20px;
+	letter-spacing:20px;
+	text-indent:20px;
+}
+
+#five .five-text h3{
+	color:#323333;
+	font-size:14px;
+}
+
+#five .five-text h4{
+	color:#aeaeae;
+	font-size:12px;
+}
+
+#six{
+	height:565px;
+	position:relative;
+}
+
+#six-left{
+	float:left;
+	width:850px;
+	height:565px;
+	background:url(picture/picture2.jpg) no-repeat;
+	font-family:"Microsoft YaHei";
+	color:white;
+	padding-top:130px;
+}
+
+#six-left #six-left-title1{
+	font-size:50px;
+	line-height:50px;
+	text-align:center;
+}
+
+#six-left #six-left-title2{
+	font-size:158px;
+	line-height:158px;
+	text-align:center;
+	position:relative;
+	top:-20px;
+}
+
+#six-left #six-left-title3{
+	font-size:22px;
+	line-height:45px;
+	margin-left:350px;
+	position:relative;
+	top:-20px;
+}
+
+#six-triangle{
+	width:26px;
+	height:31px;
+	background:url(picture/triangle1.png) no-repeat;
+	position:absolute;
+	left:826px;
+	top:267px;
+}
+
+#six-right{
+	float:left;
+	width:430px;
+	height:565px;
+	font-family:"Microsoft YaHei";
+	position:relative;
+}
+#six-right-title{
+	font-size:20px;
+	color:#323333;
+	line-height:22px;
+	text-align:center;
+	margin-top:135px;
+}
+
+#six-right-title span{
+	color:#e74f4d;
+}
+
+#six-right-text{
+	font-size:12px;
+	color:#b7b7b7;
+	line-height:32px;
+	width:290px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#six-more{
+	width:100px;
+	height:30px;
+	font-size:12px;
+	color:#e74f4d;
+	border:1px solid #e74f4d;
+	text-align:center;
+	padding-top:7px;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#dot1,#dot2,#dot3{
+	width:12px;
+	height:12px;
+	position:absolute;
+	top:430px;
+}
+
+#dot1{
+	background:url(picture/gray-dot.png) no-repeat center;
+	left:185px;
+}
+
+#dot2{
+	background:url(picture/white-dot.png) no-repeat center;
+	left:210px;
+}
+
+#dot3{
+	background:url(picture/white-dot.png) no-repeat center;
+	left:235px;
+}
