@@ -454,3 +454,288 @@ body{
 	background:url(picture/white-dot.png) no-repeat center;
 	left:235px;
 }
+
+#seven{
+	height:520px;
+}
+
+#seven-left,#seven-middle{
+	height:520px;
+	width:425px;
+	float:left;
+	text-align:center;
+	padding-top:170px;
+	font-family:SimHei;
+	font-size:21px;
+}
+#seven-left{
+	background-color:#e74f4d;
+	color:#ffffff;
+}
+
+#seven-middle{
+	background-color:#ffffff;
+	color:#323333;
+}
+
+#seven-left-line{
+	width:30px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid white;
+}
+
+#seven-middle-line{
+	width:30px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #abaaaa;
+	text-align:center;
+}
+
+#seven-left-more{
+	width:168px;
+	height:40px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:4px;
+	border:1px solid white;
+}
+
+#seven-middle-more{
+	width:168px;
+	height:40px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:4px;
+	color:#e74f4d;
+	border:1px solid #e74f4d;
+	text-align:center;
+}
+
+#seven-right{
+	height:520px;
+	width:430px;
+	float:left;
+	background:url(picture/picture3.jpg) no-repeat;
+}
+
+#seven-block{
+	background-color:rgba(0,0,0,0.4);
+	height:520px;
+	width:430px;
+	position:relative;
+}
+
+#seven-triangle{
+	width:26px;
+	height:31px;
+	background:url(picture/triangle2.png) no-repeat;
+	position:absolute;
+	left:-2px;
+	top:260px;
+}
+
+#eight{
+	height:750px;
+}
+
+#eight-top{
+	text-align:center;
+	height:300px;
+}
+
+#eight-title1{
+	color:#323333;
+	font-family:SimHei;
+	font-size:21px;
+	padding-top:110px;
+}
+
+#eight-line{
+	width:30px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-5px;
+	border-top:3px solid #e74f4d;
+}
+
+#eight-text1{
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:#aaaaaa;
+	margin-top:15px;
+	position:relative;
+	top:-5px;
+}
+
+#eight-left{
+	float:left;
+	width:285px;
+	height:450px;
+	margin-left:140px;
+}
+
+#eight-left .volunteer{
+	background:url(picture/more.png) no-repeat right bottom;
+	margin-bottom:40px;
+}
+#eight-left .volunteer2{
+	background:url(picture/more.png) no-repeat right bottom;
+	position:relative;
+	top:-25px;
+}
+
+#eight-left .eight-title2{
+	font-family:SimHei;
+	font-size:14px;
+	color:#323333;
+}
+
+#eight-left .eight-text2{
+	font-family:SimSun;
+	font-size:12px;
+	color:#b5b3b3;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+
+#eight-right{
+	float:left;
+	width:640px;
+	height:450px;
+	margin-left:75px;
+}
+
+#eight-right input{
+	width:310px;
+	height:40px;
+	background-color:#ececee;
+	font-family:SimSun;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:15px;
+	margin-bottom:15px;
+	color:#6c6868;
+	border:none;
+}
+
+#eight-right .eight-right-input{
+	float:right;
+}
+
+#eight-right textarea{
+	width:640px;
+	height:120px;
+	background-color:#ececee;
+	font-family:SimSun;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:15px;
+	margin-bottom:10px;
+	color:#6c6868;
+	border:none;
+}
+
+#eight-submit{
+	width:640px;
+	height:40px;
+	background-color:#ececee;
+	font-family:SimHei;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+	color:#6c6868;
+}
+
+#footer{
+	height:415px;
+	color:white;
+}
+
+#footer1{
+	height:360px;
+	background-color:#33363f;
+}
+
+#footer-title{
+	font-family:SimHei;
+	font-size:21px;
+	text-align:center;
+	padding-top:90px;
+}
+
+#footer-text{
+	font-family:SimSun;
+	font-size:12px;
+	text-align:center;
+}
+
+#footer-input{
+	width:510px;
+	height:40px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#email{
+	width:430px;
+	height:40px;
+	float:left;
+}
+
+#footer1 input{
+	width:430px;
+	height:40px;
+	color:#aaaaaa;
+}
+
+#footer-submit{
+	width:80px;
+	height:40px;
+	float:left;
+	font-family:"Microsoft YaHei";
+	font-size:15px;
+	padding-top:5px;
+	text-align:center;
+	background-color:#707278;
+}
+
+#footer-picture{
+	width:181px;
+	height:25px;
+	background:url(picture/footer.png) no-repeat;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#footer2{
+	height:55px;
+	background-color:#2f3038;
+}
+
+#footer-left,#footer-right{
+	color:white;
+	margin-top:25px;
+	font-family:SimSun;
+	font-size:12px;
+}
+
+#footer-left{
+	margin-left:100px;
+	float:left;
+}
+
+#footer-right{
+	margin-right:40px;
+	float:right;
+}
+	
