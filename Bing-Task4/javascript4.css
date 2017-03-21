@@ -1,0 +1,29 @@
+#inputBox{
+	height:30px;
+}
+
+#inputDiv{
+	float:left;
+}
+
+.button{
+	float:left;
+	width:80px;
+	background-color:gray;
+	font-size:18px;
+	line-height:20px;
+	border:1px solid black;
+	margin-left:5px;
+	text-align:center;
+}
+
+#numberGroup{
+	height:50px;
+}
+
+.number{
+	float:left;
+	background-color:red;
+	margin-right:5px;
+	padding:5px;
+}
