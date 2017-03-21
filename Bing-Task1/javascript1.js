@@ -7,7 +7,7 @@ function addLoadEvent(func){
     window.onload=function(){
       oldOnload();
       func();
-    }
+    };
   }
 }
 
@@ -17,7 +17,7 @@ function airQuality(){
 	var airButton=document.getElementById("button");
 	airButton.onclick=function(){
     displayQuality();
-  }
+	}
 }
 
 function displayQuality(){
