@@ -7,7 +7,7 @@ function addLoadEvent(func){
     window.onload=function(){
       oldOnload();
       func();
-    };
+    }
   }
 }
 
