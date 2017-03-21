@@ -1,6 +1,7 @@
 function addLoadEvent(func){
+
 	var oldOnload=window.onload;
-	if(typeof window.onload!="function"){
+	if(typeof window.onload!='function'){
 		window.onload=func;
 	}
 	
@@ -30,22 +31,12 @@ function getData() {
     ……
   ]
   */
-	var sourceList=document.getElementByTagName("li");
+	var sourceList=document.getElementsByTagName("li");
 	var data=[];
-	alert(sourceList.length);
 	for(var i=0;i<sourceList.length;i++)
 	{
-		alert(sourceList[i].firstChild.nodeValue);
-		(function(){
-			var dataElement=[];
-			dataElement.append(sourceList[i].firstChild.nodeValue);
-			alert(sourceList[i].firstChild.nodeValue);
-			dataElement.append(sourceList[i].lastChild.nodeValue);
-			alert(sourceList[i].lastChild.nodeValue);
-			data.append(dataElement);
-		})();
+		data.push([sourceList[i].firstChild.nodeValue,sourceList[i].childNodes[1].innerHTML]);
 	}
-	
 	return data;
 
 }
@@ -56,7 +47,20 @@ function getData() {
  * 返回一个排序后的数组
  */
 function sortAqiData(data) {
-
+	var temp=[];
+	for(var i=0;i<data.length-1;i++)
+	{
+		for(var j=i+1;j<data.length;j++)
+		{
+			if(data[i][1]>data[j][1])
+			{
+				temp=data[i];
+				data[i]=data[j];
+				data[j]=temp;
+			}
+		}
+	}
+	return data;
 }
 
 /**
@@ -65,7 +69,18 @@ function sortAqiData(data) {
  * 格式见ul中的注释的部分
  */
 function render(data) {
-
+	var resort=document.getElementById("resort");
+	var city;
+	var quality;
+	var resortLi;
+	for(var i=0;i<data.length;i++)
+	{
+		city=data[i][0];
+		quality=data[i][1];
+		resortLi=document.createElement("li");
+		resortLi.innerHTML="第"+(i+1)+"名："+city+"<b>"+quality+"</b>";
+		resort.appendChild(resortLi);
+	}
 }
 
 function btnHandle() {
@@ -81,6 +96,5 @@ function init() {
 	btn.onclick=function(){
 		btnHandle();
 	}
-
 }
 
